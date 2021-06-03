@@ -28,3 +28,8 @@ proptest = "0.10.1"
 name = "bench-vdf-class"
 path = "benches/vdf/class_group.rs"
 harness = false
+
+[[bench]]
+name = "bench-vdf-rsa"
+path = "benches/vdf/rsa_group.rs"
+harness = false
